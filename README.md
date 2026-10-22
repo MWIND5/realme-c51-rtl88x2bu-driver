@@ -1,5 +1,8 @@
 # RTL8822BU (`88x2bu`) для Realme C51 / RMX3834
 
+Драйвер RTL8822BU (88x2bu) для Realme C51 / RMX3834 — Android 12, kernel 5.4.254.
+Сборка и работа в Termux, monitor mode, проверено с TP-Link Archer T3U / T3U Plus (2357:012e).
+
 Собрано под **стоковое ядро этого устройства** и подписано **родным ключом Realme** из GPL-исходников. На устройстве `CONFIG_MODULE_SIG_FORCE=y`, поэтому подпись обязательна.
 
 Ядро устройства (проверено):
