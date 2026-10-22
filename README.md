@@ -122,3 +122,12 @@ insmod "$MODDIR/88x2bu-device.ko"
 See [docs/wps-troubleshooting.md](docs/wps-troubleshooting.md).
 
 USB resets, airgeddon regex fix, and WPS limitations are documented there.
+
+## Ссылки и связанные проекты
+
+- [morrownr/88x2bu-20210702](https://github.com/morrownr/88x2bu-20210702) — апстрим драйвера `v5.13.1`, из которого собран модуль `88x2bu-device.ko`.
+- [cilynx/rtl88x2bu](https://github.com/cilynx/rtl88x2bu) — альтернативная сборка rtl88x2bu под свежие ядра.
+- [realme-kernel-opensource/...AndroidU-kernel-source](https://github.com/realme-kernel-opensource/realme_C51_C53_Note50_C60_C51_N53-AndroidU-kernel-source) — GPL-исходники ядра 5.4.254: из них взяты заголовки и ключ подписи Realme.
+- [NTeditor/rmx3834-kernel-docker](https://github.com/NTeditor/rmx3834-kernel-docker) — дефконфиг `rmx3834_defconfig` и docker-сборка.
+- [aircrack-ng/aircrack-ng](https://github.com/aircrack-ng/aircrack-ng) — аудит Wi-Fi, сценарии с monitor mode.
+- [Termux wiki](https://wiki.termux.com/wiki/Main_Page) — окружение на устройстве, из которого ставится модуль (`su` + `insmod`).
